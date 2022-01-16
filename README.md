@@ -10,6 +10,7 @@ EasyModerationKit Dependencies
   * [TensorFlowTTS](https://github.com/TensorSpeech/TensorFlowTTS)
   * [scikit-fuzzy](https://github.com/scikit-fuzzy/scikit-fuzzy)
   * [Detoxify](https://github.com/unitaryai/detoxify)
+
 ## PaddleOCR
 ### Install PaddleOCR Whl Package
 
@@ -31,9 +32,11 @@ pip install "paddleocr>=2.0.1" # Recommend to use version 2.0.1+
 
 ## TensorFlowTTS
 ### Installation with pip
+
 ```bash
 $ pip install TensorFlowTTS
 ```
+
 ## scikit-fuzzy
 ### Installation
 
@@ -64,7 +67,8 @@ If you prefer, you can use SciKit-Fuzzy without installing by simply exporting
 this path to your PYTHONPATH variable.
 
 ## Detoxify
-Quick prediction
+###Installation
+
 The `multilingual` model has been trained on 7 different languages so it should only be tested on: `english`, `french`, `spanish`, `italian`, `portuguese`, `turkish` or `russian`.
 
 ```bash
@@ -96,6 +100,9 @@ import pandas as pd
 print(pd.DataFrame(results, index=input_text).round(5))
 
 ```
-For more details check the Prediction section.
+
 ## License
 Read [LICENSE.txt](/LICENSE) for more information.
+
+## Credits
+Created with ❤️ by [Aarav-USA](https://github.com/aarav-usa)
