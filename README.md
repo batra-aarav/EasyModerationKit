@@ -30,7 +30,7 @@ pip install "paddleocr>=2.0.1" # Recommend to use version 2.0.1+
 <a name="2-easy-to-use"></a>
 
 ## TensorFlowTTS
-###Installation with pip
+### Installation with pip
 ```bash
 $ pip install TensorFlowTTS
 ```
